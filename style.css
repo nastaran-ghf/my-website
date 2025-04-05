@@ -1,0 +1,165 @@
+/* تنظیمات کلی */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    direction: rtl; /* برای متن‌های فارسی */
+}
+
+/* تنظیمات هدر */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* برای صفحات کوچک‌تر */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنظیمات بخش اصلی */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* مرکز کردن محتوا */
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4, h5 {
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: right; /* برای متن‌های فارسی */
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    direction: ltr; /* برای کدها جهت چپ به راست */
+    text-align: left; /* برای کدها جهت چپ به راست */
+}
+
+code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.9em;
+    color: #d63384;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تنظیمات فوتر */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* بهبود نمایش کدها */
+.sql-code, .json-code, .javascript-code, .sh-code {
+    display: block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* اندازه medium برای عکس‌ها */
+.img-medium {
+    width: 300px; /* عرض عکس */
+    height: auto; /* حفظ نسبت ابعاد */
+    display: block; /* برای جلوگیری از فاصله‌های اضافی */
+    margin: 0 auto; /* مرکز کردن عکس */
+    border-radius: 8px; /* گوشه‌های گرد */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* سایه ظریف */
+}
